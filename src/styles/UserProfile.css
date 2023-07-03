@@ -1,0 +1,51 @@
+.user-profile {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.user-profile .profile-info {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 500px;
+  margin-bottom: 20px;
+}
+
+.user-profile .profile-info .field {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.user-profile .profile-info .field label {
+  font-weight: bold;
+}
+
+.user-profile .profile-info .field .value {
+  text-align: right;
+}
+
+.user-profile .actions {
+  display: flex;
+  justify-content: space-between;
+}
+
+.user-profile .actions button {
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.user-profile .actions .edit {
+  background-color: #4caf50;
+  color: white;
+}
+
+.user-profile .actions .logout {
+  background-color: #f44336;
+  color: white;
+}

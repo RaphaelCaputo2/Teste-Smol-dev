@@ -1,0 +1,47 @@
+/* UserDashboard.css */
+
+.user-dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.user-dashboard h1 {
+  font-size: 2em;
+  color: #333;
+}
+
+.user-dashboard .user-info {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+
+.user-dashboard .user-info p {
+  font-size: 1.2em;
+  color: #666;
+}
+
+.user-dashboard .raffle-list {
+  display: flex;
+  flex-direction: column;
+  margin-top: 30px;
+}
+
+.user-dashboard .raffle-list .raffle-item {
+  border: 1px solid #ddd;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.user-dashboard .raffle-list .raffle-item h2 {
+  font-size: 1.5em;
+  color: #333;
+}
+
+.user-dashboard .raffle-list .raffle-item p {
+  font-size: 1.2em;
+  color: #666;
+}

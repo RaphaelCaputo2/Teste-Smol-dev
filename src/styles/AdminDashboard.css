@@ -1,0 +1,53 @@
+.admin-dashboard {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.admin-dashboard h1 {
+  color: #333;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+.admin-dashboard .raffle-list {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.admin-dashboard .raffle-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  border-bottom: 1px solid #ddd;
+}
+
+.admin-dashboard .raffle-item:last-child {
+  border-bottom: none;
+}
+
+.admin-dashboard .raffle-item button {
+  background-color: #007bff;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.admin-dashboard .raffle-item button:hover {
+  background-color: #0056b3;
+}
+
+.admin-dashboard .create-raffle {
+  margin-top: 20px;
+}
+
+.admin-dashboard .create-raffle input,
+.admin-dashboard .create-raffle button {
+  margin-top: 10px;
+}
