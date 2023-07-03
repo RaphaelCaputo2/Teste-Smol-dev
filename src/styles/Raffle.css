@@ -1,0 +1,43 @@
+.raffle-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.raffle-title {
+  font-size: 2em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+.raffle-description {
+  font-size: 1.2em;
+  margin-bottom: 20px;
+}
+
+.raffle-button {
+  padding: 10px 20px;
+  font-size: 1em;
+  color: white;
+  background-color: #007BFF;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.raffle-button:hover {
+  background-color: #0056b3;
+}
+
+.raffle-error {
+  color: red;
+  margin-top: 10px;
+}
+
+.raffle-success {
+  color: green;
+  margin-top: 10px;
+}

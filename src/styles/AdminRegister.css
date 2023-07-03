@@ -1,0 +1,47 @@
+.admin-register-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #f4f4f4;
+}
+
+.admin-register-form {
+  width: 300px;
+  background: #fff;
+  padding: 30px;
+  border-radius: 5px;
+  box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.1);
+}
+
+.admin-register-form input {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.admin-register-form button {
+  width: 100%;
+  padding: 10px;
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.admin-register-form button:hover {
+  background-color: #0056b3;
+}
+
+.admin-register-form .error-message {
+  color: red;
+  margin-bottom: 10px;
+}
+
+.admin-register-form .success-message {
+  color: green;
+  margin-bottom: 10px;
+}
